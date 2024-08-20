@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald&display=swap');
+body {
+    background-color: #e46635;
+    background-image: url(../images/background-adare-restaurant.jpg);
+    background-size: cover ;
+    background-position: center;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;/*-vw = ViewWidht-*/
+}
+ /*--- IMG LOGO ---*/
+.container > .header {
+    text-align: center;
+    height: 25vh;
+}
+
+.container .header .img-container{
+    height: 20vh; /*-viewheight-*/
+}
+.container .header .img-container .img-logo {
+    height: 13vh;
+}
+/*--- navbar ---*/
+.container .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin: 1vh auto;
+}
+.container .header .navbar .nav-item{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.5s; /*TIEMPO PARA QUE DISMINUYA EL TAMAÑO*/
+}
+.container .header .navbar .nav-item:hover{/*CUANDO PASAMOS EL MOUSE SOBRE EL ELEMENTO*/
+    color: #e46635;
+    font-size: 1.6em;/*HACEMOS QUE AUMENTE EL TAMAÑO*/
+    text-decoration: underline;
+    transition: 0.5s; /*TIEMPO PARA QUE AUMENTE EL TAMAÑO*/
+}
+.container .main-container{
+    text-align: center;
+/*    padding: 5vh;     */
+
+}
+.container .main-container .main-text-container{
+    color: white;
+    /* margin-top: 8vh; */
+    padding: 4rem;
+
+}
+.container .main-container .main-text-container h1{
+    margin-top: 0rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 5em;
+    transition: 0.3s;
+}
+.container .main-container .main-text-container h1:hover{
+    text-shadow: 0.06em 0.06em #e46635;
+    transition: 0.3s;
+}
+.container .main-container .main-text-container article{
+    width: 35vw;
+    margin: auto;
+}
+.container .main-container .main-text-container p{
+    color: lightgray;
+    font-family: "Inter", sans-serif;
+    color: rgb(187, 182, 182);
+    font-size: 1.1em;
+}
+.container .main-container .main-text-container p strong a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.container .main-container .main-text-container p strong a:hover{
+    text-shadow: 0.06em 0.06em #e46635;
+    transition: 0.3s;
+}
+/*Google map*/
+.container .main-container .map-container .google-map{
+    height: 40vh;
+    width: 50vw;
+}
+.container .footer{
+    text-align: center;
+    color: white;
+}
+.container .footer h4{
+    font-size: 1.1em;
+}
+/* MEDIA QUERYS (Estilo responsive) para tablets*/
+@media (min-width: 768px)and (max-width: 992px){
+    .container .header .navbar{
+        width: 50vw;
+    }
+}
+@media (min-width: 530px) and (max-width: 750px){
+    .container .header .navbar{
+        width: 75vw;
+    }
+}
+@media (min-width: 310px) and (max-width: 529px){
+    .container .header{
+        margin-left: 9vw;
+    }
+    .container .header .img-container{
+        margin-left: 21vw;
+    }
+    .container .header .navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 100vw;
+    }
+    .container .main-container{
+        width: 100vw;
+    }
+    .container .main-container .main-text-container{
+        width: 100vw;
+    }
+    .container .main-container .main-text-container article{
+        width: 60vw;
+    }
+    .container .main-container .map-container{
+        margin-left: 11vw;
+    }
+    .container .main-container .map-container .google-map{
+        height: 60vh;
+        width: 100vw;
+    }
+    .container .footer{
+        width: 100vw;
+        margin-left: 11vw;
+    }
+    .container .footer h4{
+        font-size: 1.3em;
+
+    }
+}
