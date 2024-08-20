@@ -23,6 +23,7 @@ body{
     text-decoration: none;
     color: white;
 }
+
 .main-content{
     display: grid;
     grid-template-columns: 6fr 6fr;
