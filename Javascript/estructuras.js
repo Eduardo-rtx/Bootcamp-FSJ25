@@ -36,5 +36,4 @@ if(variableAux > 10 && variableAux > 5){
     console.log("Esta es la respuesta true");
 }else{
     console.log("Esta es la respuesta false");
-    
 }
