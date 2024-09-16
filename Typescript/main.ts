@@ -40,5 +40,7 @@ function saludar(nombre:string):string{
     //"Hola como estas? "+nombre;
     return `Hola como estas? ${nombre}`;
 }
+//tsc main.ts -> compilar
+console.log(saludar("Luis"));
 
 

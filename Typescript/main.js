@@ -1,5 +1,5 @@
 //Declaracion de variables en JS
-var variable = "";
+var uniqueVariable = "";
 //Declaracion de variables + tipo de dato en TS
 var cadenaTexto = "Luis";
 var numero = 123;
@@ -32,3 +32,4 @@ function saludar(nombre) {
     //"Hola como estas? "+nombre;
     return "Hola como estas? ".concat(nombre);
 }
+console.log(saludar("Luis"));
