@@ -10,7 +10,7 @@
 //Encapsulamiento = Limitamos el acceso a los datos de la clase a traves de los modificadores de acceso.
 //Abstraccion = Nos da herramientas para interactuar con lo que este limitado de una clase.
 //Herencia = Capacidad de una clase de heredar los metodos y propiedades de otra clase.
-//Polimorfismo = Capacidad de una clase de comportarse como otra clase.
+//Polimorfismo = Cuando el mismo metodo cambiar su comportamiento en una clase hija.
 
 /*Modificadores de acceso -> 
 - public -> Acceso desde cualquier lugar, por defecto es publico.
